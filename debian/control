@@ -1,0 +1,12 @@
+Source: ros-humble-broll
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <emerson.knapp@bonsairobotics.ai>
+Build-Depends: debhelper (>= 9.0.0), ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, pkg-config, ros-humble-ament-cmake, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rcutils, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-broll
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rcutils, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: B-Roll utility library for interacting with video stream data in the context of rosbag2
