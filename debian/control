@@ -1,0 +1,12 @@
+Source: ros-rolling-rosbag2-storage-broll
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <emerson.knapp@bonsairobotics.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-broll, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rosbag2-cpp, ros-rolling-rosbag2-storage, ros-rolling-rosbag2-transport, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rosbag2-storage-broll
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-broll, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rosbag2-cpp, ros-rolling-rosbag2-storage, ros-rolling-rosbag2-transport, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: Rosbag2 storage plugin to play audio/video files as ROS messages using B-Roll tools
