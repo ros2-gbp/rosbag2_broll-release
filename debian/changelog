@@ -1,0 +1,29 @@
+ros-kilted-broll (0.1.1-1noble) noble; urgency=high
+
+
+
+ -- Emerson Knapp <emerson.knapp@bonsairobotics.ai>  Mon, 12 May 2025 07:00:00 -0000
+
+ros-kilted-broll (0.1.0-1noble) noble; urgency=high
+
+  * Hardware decoding of frames (#13 <https://github.com/ros-tooling/rosbag2_broll/issues/13>)
+  * Missed one bsf include :facepalm: (#12 <https://github.com/ros-tooling/rosbag2_broll/issues/12>)
+  * bsf.h doesn't exist in major versions below 60. (#11 <https://github.com/ros-tooling/rosbag2_broll/issues/11>)
+  * Fix ffmpeg 6 build and latest Rolling compatibility (#10 <https://github.com/ros-tooling/rosbag2_broll/issues/10>)
+  * Fix extended color range YUV pix format deprecation. (#7 <https://github.com/ros-tooling/rosbag2_broll/issues/7>)
+  * Detect and skip bad H265 P-Frames (#6 <https://github.com/ros-tooling/rosbag2_broll/issues/6>)
+  * Disable mcap (#4 <https://github.com/ros-tooling/rosbag2_broll/issues/4>)
+  * Lookup codec id name rather than switching (#3 <https://github.com/ros-tooling/rosbag2_broll/issues/3>)
+  * Add github action CI (#2 <https://github.com/ros-tooling/rosbag2_broll/issues/2>)
+  * Don't include bsf.h, for older versions of ffmpeg
+  * Fix build error
+  * Clean up bsfPacket_
+  * Annex-B streaming (plus code cleanup) (#1 <https://github.com/ros-tooling/rosbag2_broll/issues/1>)
+  * Export dependency, expose utility func as static
+  * End-to-end example workflow documentation and some small code touchups
+  * Initial functionality pass
+  * Contributors: Emerson Knapp, Henry Fuller
+
+ -- Emerson Knapp <emerson.knapp@bonsairobotics.ai>  Wed, 09 Apr 2025 07:00:00 -0000
+
+
