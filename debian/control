@@ -1,0 +1,12 @@
+Source: ros-kilted-broll
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <emerson.knapp@bonsairobotics.ai>
+Build-Depends: debhelper (>= 9.0.0), ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, pkg-config, ros-kilted-ament-cmake, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rcutils, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-broll
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rcutils, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: B-Roll utility library for interacting with video stream data in the context of rosbag2
