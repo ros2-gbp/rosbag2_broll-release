@@ -1,0 +1,20 @@
+ros-kilted-rosbag2-storage-broll (0.1.1-1bookworm) bookworm; urgency=high
+
+  * Support Kilted with CI and minor build fix (#6 <https://github.com/ros-tooling/rosbag2_broll/issues/6>)
+  * Contributors: Emerson Knapp
+
+ -- Emerson Knapp <emerson.knapp@bonsairobotics.ai>  Mon, 12 May 2025 07:00:00 -0000
+
+ros-kilted-rosbag2-storage-broll (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Hardware decoding of frames (#13 <https://github.com/ros-tooling/rosbag2_broll/issues/13>)
+  * Fix ffmpeg 6 build and latest Rolling compatibility (#10 <https://github.com/ros-tooling/rosbag2_broll/issues/10>)
+  * Disable mcap (#4 <https://github.com/ros-tooling/rosbag2_broll/issues/4>)
+  * Annex-B streaming (plus code cleanup) (#1 <https://github.com/ros-tooling/rosbag2_broll/issues/1>)
+  * End-to-end example workflow documentation and some small code touchups
+  * Initial functionality pass
+  * Contributors: Emerson Knapp
+
+ -- Emerson Knapp <emerson.knapp@bonsairobotics.ai>  Wed, 09 Apr 2025 07:00:00 -0000
+
+
