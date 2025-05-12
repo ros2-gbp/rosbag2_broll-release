@@ -2,6 +2,9 @@
 Changelog for package broll
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2025-05-12)
+------------------
+
 0.1.0 (2025-04-09)
 ------------------
 * Hardware decoding of frames (`#13 <https://github.com/ros-tooling/rosbag2_broll/issues/13>`_)
