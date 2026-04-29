@@ -1,0 +1,12 @@
+Source: ros-lyrical-broll
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <emerson.knapp@bonsairobotics.ai>
+Build-Depends: debhelper (>= 9.0.0), ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, pkg-config, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rcutils, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/broll/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-broll
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rcutils, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Description: B-Roll utility library for interacting with video stream data in the context of rosbag2
