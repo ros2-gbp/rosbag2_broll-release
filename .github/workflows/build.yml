@@ -16,18 +16,16 @@ jobs:
             ubuntu: jammy
           - ros: jazzy
             ubuntu: noble
-          - ros: kilted
-            ubuntu: noble-testing
           - ros: rolling
             ubuntu: noble
     name: ROS 2 ${{ matrix.ros }}
     container:
-      image: ghcr.io/ros-tooling/setup-ros-docker/setup-ros-docker-ubuntu-${{ matrix.ubuntu }}:latest
+      image: rostooling/setup-ros-docker:ubuntu-${{ matrix.ubuntu }}-latest
     env:
       ROS_DISTRO: ${{ matrix.ros }}
     steps:
       - uses: actions/checkout@v4
-      - uses: ros-tooling/action-ros-ci@v0.4
+      - uses: ros-tooling/action-ros-ci@v0.3
         with:
           target-ros2-distro: ${{ matrix.ros }}
           colcon-defaults: |
